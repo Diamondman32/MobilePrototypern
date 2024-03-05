@@ -1,0 +1,76 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  display: flex;
+}
+div #text-block {
+  width: 75vw;
+  margin-right: 5vw;
+}
+h1 {
+  font-size: 3vw;
+}
+p {
+  font-weight: 300;
+  font-size: 2vw;
+  width: 100%;
+}
+.App img {
+  width: 50vw;
+}
+.App button {
+  padding: 2vw;
+  font-size: 3.5vw;
+  width: 25vw;
+  color: #ffffff;
+  background-color: #268ce5;
+  border: 0px;
+  border-radius: 40vw;
+}
+
+/* DESKTOP */
+@media (orientation: landscape) {
+  .App {
+    flex-flow: row-reverse nowrap;
+  }
+
+  div #text-block {
+    margin-right: 5vw;
+  }
+
+  .App img {
+    object-fit: scale-down;
+  }
+}
+/* MOBILE */
+@media (orientation: portrait) {
+  .App {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+
+  div #text-block {
+    align-self: center;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+
+  .App button {
+    padding: 2vw;
+    font-size: 3.5vw;
+    width: 75vw;
+  }
+
+  .App img {
+    width: 90vw;
+  }
+}

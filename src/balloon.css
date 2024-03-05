@@ -1,0 +1,65 @@
+@media (orientation: portrait) {
+  .balloon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #balloonImg {
+    object-fit: contain;
+    width: 40vw;
+    order: 2;
+  }
+
+  #neighborhoodImg {
+    object-fit: contain;
+    width: 80vw;
+    order: 4;
+  }
+
+  .balloon h1 {
+    order: 1;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .balloon p {
+    order: 3;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+}
+
+@media (orientation: landscape) {
+  .balloon {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10vw;
+  }
+
+  #balloonImg {
+    margin-left: 17vw;
+    object-fit: contain;
+    width: 20vw;
+    order: 2;
+  }
+
+  #neighborhoodImg {
+    object-fit: contain;
+    margin-left: 2vw;
+    width: 50vw;
+    order: 4;
+  }
+
+  .balloon h1 {
+    max-width: 30vw;
+    order: 1;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .balloon p {
+    max-width: 30vw;
+    order: 3;
+    font-family: "Poppins", sans-serif;
+  }
+}

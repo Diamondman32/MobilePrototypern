@@ -1,0 +1,30 @@
+.Background-search {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: relative;
+}
+
+.Background-search html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Background-search {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: relative;
+}
+
+img#apartments {
+  width: 100vw;
+}
+
+img#searchBar {
+  position: absolute;
+  left: 28vw;
+  top: 9.5vw;
+  width: 46vw;
+}
